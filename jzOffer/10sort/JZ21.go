@@ -1,5 +1,6 @@
 package sort
 
+//调整数组顺序使奇数位于偶数前面
 func Exchange(num []int) []int {
 	for i, j := 0, 0; i < len(num); i++ {
 		if num[i]&1 == 1 {

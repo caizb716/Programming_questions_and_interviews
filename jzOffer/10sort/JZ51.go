@@ -1,5 +1,6 @@
 package sort
 
+//数组中的逆序对
 func ReversePairs(nums []int) int {
 	return mergeSort(nums, 0, len(nums)-1)
 }

@@ -1,5 +1,6 @@
 package search
 
+//字符串的排列
 func Permutation(s string) []string {
 	res := make(map[string]bool)
 	c := []byte(s)

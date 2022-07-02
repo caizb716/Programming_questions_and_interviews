@@ -1,7 +1,6 @@
 package divideandconquer
 
 //数值的整数次方
-
 func help(x float64, n int) float64 {
 	if n == 1 {
 		return x

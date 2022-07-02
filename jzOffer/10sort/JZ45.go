@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+//把数组排成最小的数
 func MinNumber(nums []int) string {
 	sort.Slice(nums, func(i, j int) bool {
 		return compareNumber(nums[i], nums[j])

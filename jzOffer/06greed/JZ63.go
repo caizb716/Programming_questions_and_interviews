@@ -1,5 +1,6 @@
 package greed
 
+//股票的最大利润
 func MaxProfit(prices []int) int {
 	if len(prices) <= 1 {
 		return 0
